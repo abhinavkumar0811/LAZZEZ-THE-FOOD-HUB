@@ -131,7 +131,7 @@ padding-top: 70px;
 .dashboard-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-    gap: 5%;
+    gap: 50px;
     padding: 0.5rem 1rem 1rem 1rem;
 } 
 .dashboard-card{
@@ -292,7 +292,7 @@ border-radius: 20px;
 }
 @media screen and (max-width: 680px){
     .dashboard{
-        padding-right: 0;
+        padding: 0;
     }
     .dashboard-order{
         width: 100%;
