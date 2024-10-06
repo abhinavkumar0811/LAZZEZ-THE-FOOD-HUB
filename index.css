@@ -96,13 +96,13 @@ padding-top: 70px;
 }
 .banner-promo{
     position: absolute;
-    color: rgb(209, 183, 37);
+    color: rgb(9, 53, 28);
     top: 25%;
     left: 10%;
     font-weight: 800;
 }
 .banner-promo > h1 > span{
-    color: goldenrod;
+    color: rgb(9, 53, 28);
 }
 
 .dashboard-title{
