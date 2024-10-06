@@ -154,6 +154,97 @@ padding-top: 70px;
     font-size: 0.8rem;
     padding: 10px;
 }
+.dashboard-order{
+    width: 340px;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 0.5rem 1.5rem;
+    background-color: var(--maincolor);
+    z-index: 3;
+}
+.dashboard-order > h3{
+    padding: 10px 0;
+}
+.order-address > h4{
+    line-height: 2;
+}
+.order-time{
+    font-size: 0.8rem;
+    color: var(--darkblack);
+}
+.order-wrapped{
+    height: 180px;
+    width: 100%;
+    overflow-y: scroll;
+    margin: 20px 0;
+}
+
+/*custom scroll*/
+
+.order-wrapped::-webkit-scrollbar{
+    width: 7px;
+}
+.order-wrapped::-webkit-scrollbar-track{
+    background-color: var(--lightgray);
+    border-radius: 20px;
+}
+.order-wrapped::-webkit-scrollbar-thumb{
+background-color: var(--darkblack);
+border-radius: 20px;
+}
+.order-card{
+    display: grid;
+    grid-template-columns: 0.6fr 1fr 0.5fr;
+    padding: 10px 0 ;
+    gap: 5px;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.order-image{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.order-detail > input{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 2px solid var(--gray);
+    border-radius: 10px;
+    background-color: transparent;
+    margin-left: 10px;
+}
+.divider{
+    width: 100%;
+    border: 1px dashed var(--gray);
+}
+.oder-total > p{
+    padding: 10px 0;
+}
+.order-total > p > span{
+    float: right;
+    font-weight: 600;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
