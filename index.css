@@ -284,6 +284,16 @@ border-radius: 20px;
 #cart:checked ~ .logo{
     padding-right: 0px;
 }
+@media screen and (max-width: 680px){
+    .dashboard{
+        padding-right: 0;
+    }
+    .dashboard-order{
+        width: 100%;
+        left: 0;
+    }
+    
+}
 
 
 
