@@ -28,6 +28,11 @@ p{
     z-index: 4;
     cursor: pointer;
 }
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
 .logo{
     position: fixed;
     background-color: var(--darkblack);
@@ -38,6 +43,7 @@ p{
     top: 0;
     z-index: 2;
 }
+
 .sidebar{
 position: fixed;
 top: 0;
